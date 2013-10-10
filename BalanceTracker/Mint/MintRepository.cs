@@ -57,7 +57,7 @@ namespace BalanceTracker.Mint
                                                         userStatus =
                                                             JsonConvert.DeserializeObject<UserStatus>(userStatusJson);
                                                     }
- while (userStatus.IsRefreshing);
+                                                    while (userStatus.IsRefreshing);
                                                 }
 
                                                 return GetAccountInformation();
